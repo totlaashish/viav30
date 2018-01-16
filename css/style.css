@@ -1,0 +1,185 @@
+body {
+  background: #ac3226;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  /*font-family: Pacifico;*/
+  overflow: hidden;
+  color: white;
+  font-size: 100px;
+}
+
+#circle {
+  width: 1300px;
+  height: 1300px;
+  background: #920012;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: scale(0%);
+          transform: scale(0%);
+  margin-left: -650px;
+  margin-top: -650px;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 5px 5px 100px #000;
+          box-shadow: inset 5px 5px 100px #000;
+}
+
+#circle>div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  background: rgba(255, 0, 0, 0.2);
+}
+#circle>div:nth-child(1) {
+  width: 1300px;
+  height: 1300px;
+  margin: -650px 0 0 -650px;
+  -webkit-transform: scale(0%);
+          transform: scale(0%);
+  background: rgba(216, 94, 27, 0.2);
+  -webkit-box-shadow: inset 5px 5px 40px black;
+          box-shadow: inset 5px 5px 40px black;
+  -webkit-animation: circin 0.5s linear 5ms forwards;
+          animation: circin 0.5s linear 5ms forwards;
+          animation-delay: 3s;
+}
+#circle>div:nth-child(2) {
+  width: 1100px;
+  height: 1100px;
+  margin: -550px 0 0 -550px;
+  -webkit-transform: scale(0%);
+          transform: scale(0%);
+  background: rgba(216, 94, 27, 0.2);
+  -webkit-box-shadow: inset 5px 5px 40px black;
+          box-shadow: inset 5px 5px 40px black;
+  -webkit-animation: circin 0.5s linear 50ms forwards;
+          animation: circin 0.5s linear 50ms forwards;
+          animation-delay: 3s;
+}
+#circle>div:nth-child(3) {
+  width: 900px;
+  height: 900px;
+  margin: -450px 0 0 -450px;
+  -webkit-transform: scale(0%);
+          transform: scale(0%);
+  background: rgba(216, 94, 27, 0.2);
+  -webkit-box-shadow: inset 5px 5px 40px black;
+          box-shadow: inset 5px 5px 40px black;
+  -webkit-animation: circin 0.5s linear 100ms forwards;
+          animation: circin 0.5s linear 100ms forwards;
+          animation-delay: 3s;
+}
+#circle>div:nth-child(4) {
+  width: 700px;
+  height: 700px;
+  margin: -350px 0 0 -350px;
+  -webkit-transform: scale(0%);
+          transform: scale(0%);
+  background: rgba(216, 94, 27, 0.2);
+  -webkit-box-shadow: inset 5px 5px 40px black;
+          box-shadow: inset 5px 5px 40px black;
+  -webkit-animation: circin 0.5s linear 150ms forwards;
+          animation: circin 0.5s linear 150ms forwards;
+          animation-delay: 3s;
+}
+#circle>div:nth-child(5) {
+  width: 500px;
+  height: 500px;
+  margin: -250px 0 0 -250px;
+  -webkit-transform: scale(0%);
+          transform: scale(0%);
+  background: rgba(216, 94, 27, 0.2);
+  -webkit-box-shadow: inset 5px 5px 40px black;
+          box-shadow: inset 5px 5px 40px black;
+  -webkit-animation: circin 0.5s linear 200ms forwards;
+          animation: circin 0.5s linear 200ms forwards;
+          animation-delay: 3s;
+}
+#circle>div:nth-child(6) {
+  width: 300px;
+  height: 300px;
+  margin: -150px 0 0 -150px;
+  -webkit-transform: scale(0%);
+          transform: scale(0%);
+  background: rgba(216, 94, 27, 0.2);
+  -webkit-box-shadow: inset 5px 5px 40px black;
+          box-shadow: inset 5px 5px 40px black;
+  -webkit-animation: circin 0.5s linear 250ms forwards;
+          animation: circin 0.5s linear 250ms forwards;
+          animation-delay: 3s;
+}
+#circle>div:nth-child(6) {
+  background: #0e2d52;
+}
+
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes bounce {
+  0% {
+    top: 1000px;
+  }
+  80% {
+    top: 550px;
+  }
+  100% {
+    top: 580px;
+  }
+}
+@keyframes bounce {
+  0% {
+    top: 1000px;
+  }
+  80% {
+    top: 550px;
+  }
+  100% {
+    top: 580px;
+  }
+}
+@-webkit-keyframes circin {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  90% {
+    -webkit-transform: scale(120%);
+            transform: scale(120%);
+  }
+  100% {
+    -webkit-transform: scale(100%);
+            transform: scale(100%);
+  }
+}
+@keyframes circin {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  90% {
+    -webkit-transform: scale(120%);
+            transform: scale(120%);
+  }
+  100% {
+    -webkit-transform: scale(100%);
+            transform: scale(100%);
+  }
+}
