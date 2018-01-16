@@ -499,7 +499,6 @@
 		position: fixed;
 		z-index: 200;
 		background-color: gray;
-		animation: anim 3s;
 		animation-fill-mode: forwards;
 		}
 		@keyframes anim {
@@ -1196,6 +1195,11 @@ animation-delay: 8s;
   }
 
   </script>
+	<script type="text/javascript">
+	        window.onload = function() {
+	            document.querySelector(".loader").style.display="none";
+	        }
+	    </script>
 
 
 </body></html>
